@@ -10,7 +10,7 @@ interface BookingReviewProps {
   date: string;
 }
 
-export default function BookingReview({
+export function BookingReview({
   name,
   country,
   score,
