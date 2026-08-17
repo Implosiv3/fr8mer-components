@@ -1,0 +1,40 @@
+{
+    "name": "@implosiv3/fr8mer-components",
+    "version": "0.0.2",
+    "type": "module",
+    "files": [
+        "dist"
+    ],
+    "main": "./dist/index.js",
+    "module": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "exports": {
+        ".": {
+            "types": "./dist/index.d.ts",
+            "import": "./dist/index.js"
+        }
+    },
+    "sideEffects": [
+        "**/*.css"
+    ],
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build && tsc -p tsconfig.build.json",
+        "lint": "oxlint",
+        "preview": "vite preview"
+    },
+    "peerDependencies": {
+        "react": "^19.0.0",
+        "react-dom": "^19.0.0"
+    },
+    "devDependencies": {
+        "@types/node": "^24.13.3",
+        "@types/react": "^19.2.17",
+        "@types/react-dom": "^19.2.3",
+        "@vitejs/plugin-react": "^6.0.4",
+        "oxlint": "^1.75.0",
+        "typescript": "~6.0.2",
+        "vite": "^8.2.1",
+        "vite-plugin-lib-inject-css": "^2.2.2"
+    }
+}
