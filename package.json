@@ -1,6 +1,6 @@
 {
     "name": "@implosiv3/fr8mer-components",
-    "version": "0.0.2",
+    "version": "0.0.4",
     "type": "module",
     "files": [
         "dist"
@@ -21,7 +21,8 @@
         "dev": "vite",
         "build": "vite build && tsc -p tsconfig.build.json",
         "lint": "oxlint",
-        "preview": "vite preview"
+        "preview": "vite preview",
+        "prepublishOnly": "npm run build"
     },
     "peerDependencies": {
         "react": "^19.0.0",
