@@ -8,8 +8,15 @@
     to work with your animation engine.
 */
 export { AnimationProvider } from "./animation/AnimationProvider";
+export { AnimationElementProvider } from "./animation/AnimationElementProvider";
+
 export { useAnimation } from "./animation/useAnimation";
-export type { AnimationState } from "./animation/types";
+export { useAnimationElement } from "./animation/useAnimationElement";
+
+export type {
+    AnimationState,
+    AnimationElementState,
+} from "./animation/types";
 
 
 
