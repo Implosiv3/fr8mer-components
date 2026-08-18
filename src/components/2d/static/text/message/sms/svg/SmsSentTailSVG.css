@@ -1,0 +1,7 @@
+.sms-sent__tail {
+  position: absolute;
+  right: -5px;
+  bottom: 0;
+
+  pointer-events: none;
+}

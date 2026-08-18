@@ -1,0 +1,49 @@
+.instagram-tooltip {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 18px 24px;
+  border-radius: 20px;
+  background: #3f3f43;
+  color: #fff;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1;
+  box-sizing: border-box;
+  filter:
+    drop-shadow(
+    0 3px 3px rgba(0, 0, 0, 0.35)
+    )
+    drop-shadow(
+    0 3px 3px rgba(0, 0, 0, 0.25)
+    );
+}
+
+.instagram-tooltip__verified {
+  flex-shrink: 0;
+}
+
+.instagram-tooltip__triangle_bottom {
+  position: absolute;
+  bottom: -9px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #3f3f43;
+}
+
+.instagram-tooltip__triangle_top {
+  position: absolute;
+  top: -9px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #3f3f43;
+}

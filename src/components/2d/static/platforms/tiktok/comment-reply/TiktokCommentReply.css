@@ -1,0 +1,115 @@
+.tiktok-reply {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  min-height: 135px;
+  max-width: 240px;
+
+  font-family: "Inter", sans-serif;
+  font-feature-settings: normal;
+
+  filter:
+    drop-shadow(
+      0 3px 3px rgba(0, 0, 0, 0.35)
+    )
+    drop-shadow(
+      0 3px 3px rgba(0, 0, 0, 0.25)
+    );
+}
+
+.tiktok-reply__bubble {
+  display: flex;
+  flex-direction: column;
+
+  padding: 14px 6px 12px 10px;
+
+  background: #ffffff;
+
+  border-radius: 7.5px;
+  border-bottom-left-radius: 0;
+
+  box-shadow:
+    0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -4px rgba(0, 0, 0, 0.1);
+
+  box-sizing: border-box;
+}
+
+.tiktok-reply__header {
+  margin-left: 37px;
+  max-width: 187px;
+
+  color: #707070;
+
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 14px;
+
+  word-break: break-word;
+
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2px;
+}
+
+.tiktok-reply__verified {
+  width: 9px;
+  height: 9px;
+
+  margin-bottom: 1.5px;
+
+  flex-shrink: 0;
+}
+
+.tiktok-reply__body {
+  display: flex;
+  gap: 7px;
+
+  margin-top: 2px;
+}
+
+.tiktok-reply__avatar {
+  position: relative;
+
+  width: 30px;
+  height: 30px;
+
+  flex-shrink: 0;
+
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.tiktok-reply__avatar-image {
+  position: absolute;
+  inset: 0;
+
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+}
+
+.tiktok-reply__comment {
+  margin-top: 3px;
+  max-width: 187px;
+
+  color: #000000;
+
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 18px;
+
+  word-break: break-word;
+}
+
+.tiktok-reply__tail {
+  width: 13.5px;
+  height: 13.5px;
+
+  margin-top: -1px;
+
+  display: block;
+}

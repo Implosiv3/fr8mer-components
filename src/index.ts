@@ -1,2 +1,51 @@
-export { DiscordMessage } from "./components/static/discord/DiscordMessage";
-export { BookingReview } from "./components/static/booking/review/BookingReview"
+export { RoundedBordersImage } from "./components/2d/static/image/rounded-borders/RoundedBordersImage"
+
+//  - -   P L A T F O R M S   - -
+
+// Discord
+export { DiscordMessage } from "./components/2d/static/platforms/discord/DiscordMessage";
+
+// Booking
+export { BookingReview } from "./components/2d/static/platforms/booking/review/BookingReview"
+
+// Instagram
+export { InstagramComment } from "./components/2d/static/platforms/instagram/comment/InstagramComment"
+export { InstagramCommentReply } from "./components/2d/static/platforms/instagram/comment-reply/InstagramCommentReply"
+export { InstagramTooltip } from "./components/2d/static/platforms/instagram/tooltip/InstagramTooltip"
+export { InstagramVisualizationsInfoPanelCard } from "./components/2d/static/platforms/instagram/visualizations-info-panel/InstagramVisualizationsInfoPanelCard"
+
+// Tiktok
+export { TiktokCommentReply } from "./components/2d/static/platforms/tiktok/comment-reply/TiktokCommentReply"
+
+// Twitter - X
+export { TwitterPost } from "./components/2d/static/platforms/twitter/post/TwitterPost"
+
+// Youtube
+export { YoutubeComment } from "./components/2d/static/platforms/youtube/comment/YoutubeComment"
+export { YoutubeVideoPreview } from "./components/2d/static/platforms/youtube/video-preview/YoutubeVideoPreview"
+export { YoutubeVideoPreviewSmall } from "./components/2d/static/platforms/youtube/video-preview/YoutubeVideoPreviewSmall"
+
+// Google
+export { GoogleSearchBarSmall } from "./components/2d/static/platforms/google/search-bar/GoogleSearchBarSmall"
+
+// WhatsApp
+export { WhatsAppMessage } from "./components/2d/static/platforms/whatsapp/message/WhatsAppMessage"
+
+// Reddit
+export { RedditComment } from "./components/2d/static/platforms/reddit/comment/RedditComment"
+export { RedditPost } from "./components/2d/static/platforms/reddit/post/RedditPost"
+export { RedditStory } from "./components/2d/static/platforms/reddit/story/RedditStory"
+
+
+//  - -   T E X T  - - 
+
+// Sms
+export { SmsMessage } from "./components/2d/static/text/message/sms/SmsMessage"
+
+
+//   - -   C U S T O M   - -
+
+// Quizz
+// TODO: Install 'fitty'
+export { QuizzAnswerOption } from "./components/2d/static/custom/quizz/answers/QuizzAnswerOption"
+export { QuizzAnswerNoOption } from "./components/2d/static/custom/quizz/answers/QuizzAnswerNoOption"

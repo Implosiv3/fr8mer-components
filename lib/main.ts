@@ -1,1 +1,0 @@
-export { DiscordMessage } from "../src/components/static/discord/DiscordMessage";

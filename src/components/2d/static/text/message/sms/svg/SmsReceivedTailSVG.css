@@ -1,0 +1,10 @@
+.sms-received__tail {
+    position: absolute;
+
+    left: -5px;
+    bottom: 0;
+
+    transform: scaleX(-1);
+
+    pointer-events: none;
+}
