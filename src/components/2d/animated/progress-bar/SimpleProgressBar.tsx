@@ -1,4 +1,5 @@
 import { useAnimation } from "../../../../animation/useAnimation";
+import { useAnimationElement } from "../../../../animation/useAnimationElement";
 import "./SimpleProgressBar.css";
 
 type Props = {
@@ -8,10 +9,9 @@ type Props = {
 export function SimpleProgressBar({
     stripesSpeed = 1,
 }: Props) {
-    const {
-        progress,
-        frame,
-    } = useAnimation();
+    const { frame } = useAnimation();
+
+    const { progress } = useAnimationElement();
 
     const stripesOffset = -(frame * stripesSpeed);
 
