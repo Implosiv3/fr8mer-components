@@ -1,5 +1,5 @@
 import "./DiscordMessage.css";
-import defaultAvatarImage from "../../../assets/discord-logo.jpg";
+import defaultAvatarImage from "../../../../../assets/discord-logo.jpg";
 
 interface DiscordMessageProps {
   username: string;

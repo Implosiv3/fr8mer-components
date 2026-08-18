@@ -5,12 +5,12 @@ find them here:
 */
 import { useState } from "react";
 import "./RedditStory.css";
-import trophie1 from "../../../../../../assets/reddit/trophies/2jd92wtn25g41_ImDeceased.png";
-import trophie2 from "../../../../../../assets/reddit/trophies/5izbv4fn0md41_Wholesome.png"
-import trophie3 from "../../../../../../assets/reddit/trophies/6vgr8y21i9741_PlusOne.png"
-import trophie4 from "../../../../../../assets/reddit/trophies/9avdcwgupta41_GottheW.png"
-import trophie5 from "../../../../../../assets/reddit/trophies/35d17tf5e5f61_oldrocketlike.png"
-import trophie6 from "../../../../../../assets/reddit/trophies/43zl6dfcg9e51_EvilCackle.png"
+import trophie1 from "../assets/trophies/2jd92wtn25g41_ImDeceased.png";
+import trophie2 from "../assets/trophies/5izbv4fn0md41_Wholesome.png"
+import trophie3 from "../assets/trophies/6vgr8y21i9741_PlusOne.png"
+import trophie4 from "../assets/trophies/9avdcwgupta41_GottheW.png"
+import trophie5 from "../assets/trophies/35d17tf5e5f61_oldrocketlike.png"
+import trophie6 from "../assets/trophies/43zl6dfcg9e51_EvilCackle.png"
 import RedditVerifiedBadgeBlueSVG from "../assets/svg/RedditVerifiedBadgeBlueSVG copy";
 import RedditUpvoteSVG from "../assets/svg/RedditUpvoteSVG";
 import RedditShareSVG from "../assets/svg/RedditShareSVG";
