@@ -1,3 +1,21 @@
+//   - -   A N I M A T I O N   - -
+/*
+    This below is to be able to implement the
+    animated components that need parameters
+    related to the animation, such as the
+    frame, the progress, etc. With this, the
+    animated components are already prepared
+    to work with your animation engine.
+*/
+export { AnimationProvider } from "./animation/AnimationProvider";
+export { useAnimation } from "./animation/useAnimation";
+export type { AnimationState } from "./animation/types";
+
+
+
+
+
+
 export { RoundedBordersImage } from "./components/2d/static/image/rounded-borders/RoundedBordersImage"
 
 //  - -   P L A T F O R M S   - -
