@@ -13,7 +13,7 @@ export type { AnimationState } from "./animation/types";
 
 
 
-
+// TODO: Clasify this file better
 
 
 export { RoundedBordersImage } from "./components/2d/static/image/rounded-borders/RoundedBordersImage"
@@ -67,3 +67,9 @@ export { SmsMessage } from "./components/2d/static/text/message/sms/SmsMessage"
 // TODO: Install 'fitty'
 export { QuizzAnswerOption } from "./components/2d/static/custom/quizz/answers/QuizzAnswerOption"
 export { QuizzAnswerNoOption } from "./components/2d/static/custom/quizz/answers/QuizzAnswerNoOption"
+
+
+
+
+//   - -   A N I M A T E D   - -
+export { SimpleProgressBar } from "./components/2d/animated/progress-bar/SimpleProgressBar"

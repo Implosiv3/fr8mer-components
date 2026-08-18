@@ -5,7 +5,7 @@ type Props = {
     stripesSpeed: number;
 };
 
-export default function SimpleProgressBar({
+export function SimpleProgressBar({
     stripesSpeed = 1,
 }: Props) {
     const {
