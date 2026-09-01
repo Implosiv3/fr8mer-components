@@ -10,9 +10,7 @@ export function SimpleProgressBar({
     stripesSpeed = 1,
 }: Props) {
     const { frame } = useAnimation();
-
     const { progress } = useAnimationElement();
-
     const stripesOffset = -(frame * stripesSpeed);
 
     return (
