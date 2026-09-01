@@ -1,6 +1,6 @@
 {
     "name": "@implosiv3/fr8mer-components",
-    "version": "0.0.16",
+    "version": "0.0.17",
     "type": "module",
     "files": [
         "dist"
@@ -39,6 +39,8 @@
         "vite-plugin-lib-inject-css": "^2.2.2"
     },
     "dependencies": {
-        "fitty": "^2.4.2"
+        "@gsap/react": "^2.1.2",
+        "fitty": "^2.4.2",
+        "gsap": "^3.15.0"
     }
 }
