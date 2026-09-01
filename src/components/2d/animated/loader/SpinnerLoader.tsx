@@ -9,7 +9,7 @@ type SpinnerLoaderProps = {
   rotationsPerSecond: number
 };
 
-export default function SpinnerLoader({
+export function SpinnerLoader({
   rotationsPerSecond = 1
 }: SpinnerLoaderProps) {
   const { time } = useAnimation();

@@ -87,3 +87,4 @@ export { PhoneNotification } from "./components/2d/static/general/phone/PhoneNot
 
 //   - -   A N I M A T E D   - -
 export { SimpleProgressBar } from "./components/2d/animated/progress-bar/SimpleProgressBar"
+export { SpinnerLoader } from "./components/2d/animated/loader/SpinnerLoader"
