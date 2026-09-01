@@ -14,7 +14,7 @@ interface FollowNotificationProps {
   isFollowing?: boolean;
 }
 
-export default function FollowNotification({
+export function FollowNotification({
   avatar,
   name,
   username,

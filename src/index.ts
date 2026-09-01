@@ -77,6 +77,13 @@ export { QuizzAnswerNoOption } from "./components/2d/static/custom/quizz/answers
 
 
 
+//   - -   G E N E R A L   - -
+export { FollowNotification } from "./components/2d/static/general/follow-notification/FollowNotification"
+export { LocationPin } from "./components/2d/static/general/location/LocationPin"
+export { PhoneNotification } from "./components/2d/static/general/phone/PhoneNotification"
+
+
+
 
 //   - -   A N I M A T E D   - -
 export { SimpleProgressBar } from "./components/2d/animated/progress-bar/SimpleProgressBar"

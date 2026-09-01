@@ -6,7 +6,7 @@ interface LocationPinProps {
   pinColor: string;
 }
 
-export default function LocationPin({
+export function LocationPin({
   location = "Spain",
   pinColor = "black",
 }: LocationPinProps) {
