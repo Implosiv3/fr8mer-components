@@ -9,7 +9,7 @@ interface FollowNotificationProps {
   avatar: string;
   name: string;
   username: string;
-  socialNetwork: string;
+  socialNetwork: "instagram" | "youtube" | "tiktok" | "twitch";
   isVerified?: boolean;
   isFollowing?: boolean;
 }
