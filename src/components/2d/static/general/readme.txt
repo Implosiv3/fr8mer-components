@@ -1,0 +1,1 @@
+Feel free to move these components and make them be placed in a proper folder so it is easier to reach them.

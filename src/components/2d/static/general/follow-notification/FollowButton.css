@@ -1,0 +1,71 @@
+.follow-button {
+  position: relative;
+  border: none;
+  outline: none;
+  height: 32px;
+  padding: 0 14px;
+  border-radius: 999px;
+  font-size: 12.5px;
+  font-weight: 700;
+  letter-spacing: -0.2px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 92px;
+  flex: 0 0 auto;
+  white-space: nowrap;
+  font-family: inherit;
+  transition:
+    background-color 0.15s ease,
+    color 0.15s ease,
+    transform 0.15s ease;
+    color: rgb(255, 255, 255);
+}
+
+.follow-button:hover {
+  cursor: pointer;
+}
+
+.follow-button__content {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.follow-button__icon {
+  flex-shrink: 0;
+}
+
+/* Estado: siguiendo */
+.follow-button--following {
+  background: rgba(15, 15, 18, 0.06);
+  color: rgb(15, 15, 18);
+  transform: scale(0.97);
+}
+
+/* Estado: no siguiendo */
+.follow-button--default {
+  background: black;
+  color: rgb(255, 255, 255);
+  transform: scale(1);
+}
+
+.follow-button--instagram {
+    background: rgb(0, 122, 255);
+}
+
+.follow-button--tiktok {
+    background: rgb(255, 45, 85);
+}
+
+.follow-button--youtube {
+    background: rgb(255, 59, 48);
+}
+
+.follow-button--twitch {
+    background: rgb(88, 86, 214);
+}
+
+.follow-button:active {
+  transform: scale(0.95);
+}

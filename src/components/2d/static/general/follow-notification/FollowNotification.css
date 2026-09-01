@@ -1,0 +1,158 @@
+.follow-notification-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+  transform: none;
+  pointer-events: auto;
+
+  font-family:
+    var(--font-inter),
+    -apple-system,
+    BlinkMacSystemFont,
+    "SF Pro Display",
+    "SF Pro Text",
+    "SF Pro",
+    "Helvetica Neue",
+    Helvetica,
+    Arial,
+    sans-serif;
+
+  color: #1d1d1f;
+
+  filter:
+    drop-shadow(
+        0 3px 3px rgba(0, 0, 0, 0.35)
+    )
+    drop-shadow(
+        0 3px 3px rgba(0, 0, 0, 0.25)
+    );
+}
+
+.follow-notification-scale {
+  transform: scale(1);
+  transform-origin: center center;
+}
+
+.follow-notification {
+  background: #ffffff;
+  width: 340px;
+  padding: 12px 14px;
+
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+.follow-notification__avatar {
+  width: 46px;
+  height: 46px;
+  flex: 0 0 auto;
+
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+
+  box-shadow: inset 0 0 0 1.5px rgba(255, 255, 255, 0.18);
+}
+
+.follow-notification__content {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+}
+
+.follow-notification__header {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  min-width: 0;
+}
+
+.follow-notification__name {
+  color: rgb(15, 15, 18);
+  font-size: 14.5px;
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.25px;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 0;
+}
+
+.follow-notification__verified {
+  flex-shrink: 0;
+  display: inline-block;
+}
+
+.follow-notification__meta {
+  margin-top: 1px;
+
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+  color: rgba(15, 15, 18, 0.5);
+  font-size: 12px;
+  line-height: 1.2;
+  letter-spacing: -0.1px;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 0;
+}
+
+.follow-notification__instagram-icon {
+  display: inline-flex;
+  align-items: center;
+  flex: 0 0 auto;
+}
+
+.follow-notification__username {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  min-width: 0;
+}
+
+.follow-notification__button {
+  position: relative;
+
+  height: 32px;
+  min-width: 92px;
+  flex: 0 0 auto;
+
+  padding: 0 14px;
+
+  border: none;
+  outline: none;
+  border-radius: 999px;
+
+  background: rgb(0, 122, 255);
+  color: #ffffff;
+
+  font-size: 12.5px;
+  font-weight: 700;
+  letter-spacing: -0.2px;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  white-space: nowrap;
+  cursor: default;
+
+  transform: none;
+}
+
+.follow-notification__button span {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}

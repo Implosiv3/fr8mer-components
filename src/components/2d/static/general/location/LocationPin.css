@@ -1,0 +1,74 @@
+.location-pin-wrapper {
+  display: inline-block;
+  opacity: 1;
+  transform: none;
+  pointer-events: none;
+
+  filter:
+    drop-shadow(
+        0 3px 3px rgba(0, 0, 0, 0.35)
+    )
+    drop-shadow(
+        0 3px 3px rgba(0, 0, 0, 0.25)
+    );
+}
+
+.location-pin-scale {
+  display: inline-block;
+  transform: scale(1);
+  transform-origin: center center;
+  transition: transform 0.22s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.location-pin-shadow {
+  display: inline-block;
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.05));
+}
+
+.location-pin {
+  display: inline-flex;
+  align-items: center;
+  gap: 4.84px;
+
+  padding: 7.92px 13.2px;
+
+  background: #ffffff;
+
+  border-radius: 20.8828px;
+
+  /*
+    El HTML original usa un clip-path generado.
+    Este border-radius reproduce visualmente el mismo resultado.
+  */
+
+  transition:
+    background 0.42s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.22s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.location-pin-icon {
+  width: 23.1px;
+  height: 23.1px;
+  flex-shrink: 0;
+  display: block;
+}
+
+.location-pin-text {
+  font-family:
+    Inter,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    sans-serif;
+
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.18;
+
+  letter-spacing: -0.035em;
+  white-space: nowrap;
+
+  color: rgb(29, 29, 31);
+
+  transition: color 0.32s cubic-bezier(0.22, 1, 0.36, 1);
+}
