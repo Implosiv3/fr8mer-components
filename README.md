@@ -4,6 +4,9 @@ The library that includes the components that the Fr8mer engine will be able to 
 
 Components such as WhatsApp messages, Discord messages, Booking reviews, Youtube comments, etc. The components you need to enhance your videos!
 
+#### Dependencies
+Most of the components of this library has been built by hand. Some of the animated components are using `gsap` for an internal animation control.
+
 ### The animation system
 We have components that are animated, and we have 2 animations:
 - The general animation

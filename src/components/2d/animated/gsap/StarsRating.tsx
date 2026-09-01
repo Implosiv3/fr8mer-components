@@ -5,7 +5,7 @@ This module has been inspired by:
 import { useEffect, useMemo, useRef } from "react";
 import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
-import { useAnimationElement } from "@implosiv3/fr8mer-components";
+import { useAnimationElement } from "../../../../animation/useAnimationElement";
 
 interface StarsRatingProps {
     rating: 1 | 2 | 3 | 4 | 5;
