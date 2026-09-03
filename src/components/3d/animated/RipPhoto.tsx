@@ -5,7 +5,7 @@ import { useLoader } from "@react-three/fiber";
 import border_image from "../../../assets/rip_photo_border.png";
 import rip_image from "../../../assets/rip_photo_rip.jpg";
 
-import { useAnimationElement } from "@implosiv3/fr8mer-components";
+import { useAnimationElement } from "../../../animation/useAnimationElement";
 
 interface RipPhotoProps {
     photo_url: string;
