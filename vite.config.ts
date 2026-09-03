@@ -22,9 +22,11 @@ export default defineConfig({
                 "react-dom",
                 "react/jsx-runtime",
                 "react/jsx-dev-runtime",
+                "three",
+                "@react-three/fiber",
+                "@react-three/drei",
             ],
         },
-
         copyPublicDir: false,
     },
 });

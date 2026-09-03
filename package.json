@@ -1,6 +1,6 @@
 {
     "name": "@implosiv3/fr8mer-components",
-    "version": "0.0.25",
+    "version": "0.0.26",
     "type": "module",
     "files": [
         "dist"
