@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import * as THREE from "three";
 
-import { useAnimationElement } from "@implosiv3/fr8mer-components";
+import { useAnimationElement } from "../../../animation/useAnimationElement";
 import { VoxelSprite } from "../basic/VoxelSprite";
 
 interface VoxelizedImageProps {

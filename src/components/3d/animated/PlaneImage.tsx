@@ -3,7 +3,7 @@
   existing image for the texture.
 */
 
-import { useAnimationElement } from "@implosiv3/fr8mer-components";
+import { useAnimationElement } from "../../../animation/useAnimationElement";
 
 import TexturePlane from "../basic/TexturePlane";
 
