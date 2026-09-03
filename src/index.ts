@@ -94,3 +94,5 @@ export { StarsRating } from "./components/2d/animated/gsap/StarsRating"
 
 //  - -   T H R E E   ( 3 D )  - -
 export { RipPhoto } from "./components/3d/animated/RipPhoto"
+export { VoxelizedImage } from "./components/3d/animated/VoxelizedImage"
+export { PlaneImage } from "./components/3d/animated/PlaneImage"
