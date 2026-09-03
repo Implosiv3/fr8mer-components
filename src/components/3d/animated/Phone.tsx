@@ -2,21 +2,23 @@
 A phone model in which we have the outside
 and a screen.
 */
+import { useAnimationElement } from "../../../animation/useAnimationElement";
 import { RoundedBox, useTexture } from "@react-three/drei";
 import * as THREE from "three";
-import { useAnimationElement } from "../../../animation/useAnimationElement";
 
 
 export function Phone() {
-  const { progress } = useAnimationElement()
+  const { progress } = useAnimationElement();
   const t = progress * Math.PI * 2;
   const screenTexture = useTexture("/Mario.webp");
 
   const screenW = 1.75;
   const screenH = 3.75;
 
-  const imgW = screenTexture.image.width;
-  const imgH = screenTexture.image.height;
+  const image = screenTexture.image as HTMLImageElement;
+
+  const imgW = image.width;
+  const imgH = image.height;
 
   const scale = Math.min(
     screenW / imgW,
