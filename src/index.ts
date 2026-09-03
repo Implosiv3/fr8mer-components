@@ -91,3 +91,6 @@ export { SpinnerLoader } from "./components/2d/animated/loader/SpinnerLoader"
 
 //  - -    G S A P   - - 
 export { StarsRating } from "./components/2d/animated/gsap/StarsRating"
+
+//  - -   T H R E E   ( 3 D )  - -
+export { RipPhoto } from "./components/3d/animated/RipPhoto"
