@@ -2,8 +2,8 @@ import { useEffect, useMemo, useRef } from "react";
 import * as THREE from "three";
 import { useLoader } from "@react-three/fiber";
 
-import border_image from "../../assets/rip_photo_border.png";
-import rip_image from "../../assets/rip_photo_rip.jpg";
+import border_image from "../../../assets/rip_photo_border.png";
+import rip_image from "../../../assets/rip_photo_rip.jpg";
 
 import { useAnimationElement } from "@implosiv3/fr8mer-components";
 
