@@ -66,3 +66,7 @@ export function SimpleProgressBar({
     );
 }
 ```
+
+The `Storybook` package is installed for development purposes, so the components can be checked while modifying them or creating new ones.
+
+Use `npm run storybook` to execute it.

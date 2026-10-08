@@ -56,12 +56,4 @@ export function QuizzAnswerNoOption({
       </div>
     </div>
   );
-  
-  return (
-    <div className="quiz-answer">
-      <div className="quiz-answer-text">
-        {text}
-      </div>
-    </div>
-  );
 }

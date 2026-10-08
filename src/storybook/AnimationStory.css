@@ -1,0 +1,103 @@
+.animation-story {
+    display: flex;
+    flex-direction: column;
+
+    min-width: 400px;
+    max-width: 800px;
+
+    gap: 16px;
+}
+
+
+.animation-story__preview {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    min-height: 360px;
+
+    padding: 32px;
+
+    overflow: hidden;
+
+    border: 1px solid #ddd;
+    border-radius: 8px;
+
+    background: #f5f5f5;
+}
+
+
+.animation-story__controls {
+    display: flex;
+    flex-direction: column;
+
+    gap: 12px;
+
+    padding: 16px;
+
+    border: 1px solid #ddd;
+    border-radius: 8px;
+
+    background: #fff;
+}
+
+
+.animation-story__buttons {
+    display: flex;
+
+    gap: 8px;
+}
+
+
+.animation-story__buttons button {
+    padding: 6px 12px;
+
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+    background: #fff;
+
+    cursor: pointer;
+}
+
+
+.animation-story__buttons button:hover {
+    background: #f5f5f5;
+}
+
+
+.animation-story__timeline {
+    display: flex;
+    flex-direction: column;
+
+    gap: 6px;
+}
+
+
+.animation-story__timeline input {
+    width: 100%;
+
+    margin: 0;
+
+    cursor: pointer;
+}
+
+
+.animation-story__frame-info,
+.animation-story__info {
+    display: flex;
+
+    justify-content: space-between;
+
+    font-size: 12px;
+
+    color: #666;
+}
+
+
+.animation-story__info {
+    padding-top: 4px;
+
+    border-top: 1px solid #eee;
+}
